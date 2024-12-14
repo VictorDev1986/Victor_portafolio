@@ -12,7 +12,7 @@ const Header = () => {
                     <Link href='/'>
                         <h1 className="my-3 text-4xl font-bold text-center md:text-left">
                             Victor
-                            <span className="text-secondary"> Sanchez</span>
+                            <span className="bg-gradient-to-r from-violet-700 via to-green-500 bg-clip-text text-transparent"> Sanchez</span>
                         </h1>
                     </Link>
                     <div className="flex items-center justify-center gap-7">
@@ -21,7 +21,7 @@ const Header = () => {
                                 key={id}
                                 href={src}
                                 target="_blank"
-                                className="transition-all duration-300 hover:text-secondary"
+                                className="transition-all duration-300 hover:green-500 cursor-pointer"
                             >
                                 {logo}
                             </Link>
