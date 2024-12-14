@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,10 +9,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        secondary: "#f5741c",
+        darkBg: "#131424",
+      },
+      backgroundImage: {
+        "gradient-cover":
+         "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,44,187,1) 49%, rgba(9,15,33,1) 100%);",
       },
     },
   },
   plugins: [],
-} satisfies Config;
+};
+export default config;
