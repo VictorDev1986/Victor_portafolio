@@ -39,7 +39,7 @@ export const itemsNavbar = [
         id: 3,
         title: "Book",
         icon: <BookText size={25} color="#fff" strokeWidth={1} />,
-        link: "/services",
+        link: "/skills",
     },
     {
         id: 4,
@@ -51,7 +51,7 @@ export const itemsNavbar = [
         id: 5,
         title: "Home",
         icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
+        link: "/contact",
     },
 ];
 
