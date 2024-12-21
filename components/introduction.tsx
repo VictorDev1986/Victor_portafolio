@@ -7,7 +7,7 @@ const Introduction = () => {
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
                 <Image src="/victor.png" priority width="600" height="600" alt="Avatar" />
                 <div className="flex flex-col justify-center max-w-lg">
-                    <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">Hola! soy , <br />
+                    <h1 className="mb-12 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-6">Hola! soy , <br />
                         <TypeAnimation
                             sequence={[
                                 'Desarrollador de software',
@@ -22,7 +22,7 @@ const Introduction = () => {
                         />
                     </h1>
 
-                    <p className="mx-auto mb-2 text-sm md:text-xl md:mx-0 md:mb-8">
+                    <p className="mx-auto mb-14 text-base md:text-xl md:mx-0 md:mb-8">
                     Creo aplicaciones web completas, manejando frontend, backend, bases de datos y despliegue para soluciones rápidas y efectivas.
                     </p>
 
