@@ -10,7 +10,7 @@ const PageAboutMe = () => {
             <TransitionPage />
             <ContainerPage>
                 <div>
-                <h2 className=" mt-0 my-3 text-3xl font-bold text-left md:block md:text-center bg-gradient-to-r from-green-500 via
+                <h2 className=" mt-0 my-3 text-xl font-bold text-left md:block md:text-center bg-gradient-to-r from-green-500 via
                          to-blue-700 bg-clip-text text-transparent sm:text-4xl">
                             = Portafolio</h2>
                 </div>

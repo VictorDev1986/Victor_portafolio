@@ -22,7 +22,7 @@ const Introduction = () => {
                         />
                     </h1>
 
-                    <p className="mx-auto mb-14 text-base md:text-xl md:mx-0 md:mb-8">
+                    <p className="mx-auto mb-14 text-base md:text-xl md:mx-0 md:mb-6">
                     Creo aplicaciones web completas, manejando frontend, backend, bases de datos y despliegue para soluciones rápidas y efectivas.
                     </p>
 
