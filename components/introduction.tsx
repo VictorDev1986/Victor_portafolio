@@ -7,6 +7,7 @@ const Introduction = () => {
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
                 <Image src="/victor.png" priority width="600" height="600" alt="Avatar" />
                 <div className="flex flex-col justify-center max-w-lg">
+                    
                     <h1 className="mb-12 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-6">Hola! soy , <br />
                         <TypeAnimation
                             sequence={[
@@ -21,25 +22,18 @@ const Introduction = () => {
                             className="font-bold bg-gradient-to-r from-green-500 via to-blue-700 bg-clip-text text-transparent"
                         />
                     </h1>
-
-                    <p className="text-slate-400 mx-auto mb-14  md:text-xl md:mx-0 md:mb-6">
+                    <p className="text-slate-400 mx-auto mb-5  md:text-xl md:mx-0 md:mb-6">
                         Soy tecnólogo en desarrollo de software y estudiante de Ingeniería de Sistemas, con experiencia en desarrollo Full Stack. Tengo la capacidad de construir aplicaciones
                         web completas, desde el diseño del front-end hasta el desarrollo del back-end, la configuración de bases de datos y su despliegue en producción.
                         me apasiona crear soluciones funcionales, escalables y de alto impacto. Siempre enfocado en el aprendizaje continuo,
                         el trabajo colaborativo y la entrega de resultados de calidad.
                     </p>
-
-                    <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 text-sm">
-                        <a href="/projects" className="hidden sm:block px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-green-500">
-                            Proyectos
-                        </a>
-                        <a href="/contact"
-                            className="hidden sm:block px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-green-500 border-green-500 rounded-xl hover:shadow-xl hover:shadow-green-500" >
-                            Mi CV
-                        </a>
-                    </div>
+                    
                 </div>
+                
             </div>
+         
+          
         </div>
     );
 }

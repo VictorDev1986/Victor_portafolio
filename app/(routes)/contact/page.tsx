@@ -14,8 +14,6 @@ const PageAboutMe = () => {
                          to-blue-700 bg-clip-text text-transparent sm:text-4xl">
                             = Hablemos</h2>
                 </div>
-
-
             </ContainerPage>
 
         </>
