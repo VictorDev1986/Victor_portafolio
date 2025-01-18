@@ -23,7 +23,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
             <h3 className="mb-4 text-xl">{title}</h3>
             <Image
                 src={image}
-                alt="Imagen"
+                alt="Image"
                 width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto"
             />
 
@@ -31,8 +31,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 <Link
                     href={urlGithub}
                     target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2 transition duration-150 rounded-lg bg-black/35 text-white border-green-500 hover:shadow-xl hover:shadow-green-500"
+                    className="p-2 transition duration-150 rounded-lg  bg-black/35  text-while border-green-500 hover:shadow-xl hover:shadow-green-500  "
                 >
                     Github
                 </Link>
@@ -40,14 +39,14 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 <Link
                     href={urlDemo}
                     target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2 transition duration-150 rounded-lg border-2 text-white border-green-500 hover:shadow-xl hover:shadow-green-500"
+                    className="p-2 transition duration-150 rounded-lg border-2  text-while border-green-500 hover:shadow-xl hover:shadow-green-500"
                 >
                     Ver Sitio
                 </Link>
             </div>
         </div>
+        
     );
 }
 
-export default PortfolioBox;
+export default PortfolioBox
