@@ -18,7 +18,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     return (
         <div
             key={id}
-            className="p-4 mb-8 border border-teal-50 rounded-xl"
+            className="bg-black bg-opacity-30 p-4 mb-2 rounded-xl shadow-xl border-gray-300"
         >
             <h3 className="mb-4 text-xl">{title}</h3>
             <Image
@@ -35,7 +35,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 >
                     Github
                 </Link>
-                
+
                 <Link
                     href={urlDemo}
                     target="_blank"
@@ -45,7 +45,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 </Link>
             </div>
         </div>
-        
+
     );
 }
 

@@ -5,7 +5,7 @@ const Introduction = () => {
     return (
         <div className="z-20 w-full">
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-                <Image src="/victor.png" priority width="600" height="600" alt="Avatar" />
+                <Image className="mb-12" src="/Victor.png" priority width="600" height="600" alt="Avatar" />
                 <div className="flex flex-col justify-center max-w-lg">
                     
                     <h1 className="mb-12 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-6">Hola! soy , <br />
