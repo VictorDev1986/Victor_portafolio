@@ -18,13 +18,13 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     return (
         <div
             key={id}
-            className="bg-black bg-opacity-30 p-4 mb-2 rounded-xl shadow-xl border-gray-300"
+            className="w-80 sm:w-full bg-black bg-opacity-30 p-4 mb-2 rounded-xl shadow-xl border-gray-300"
         >
             <h3 className="mb-4 text-xl">{title}</h3>
             <Image
                 src={image}
                 alt="Image"
-                width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto"
+                width={200} height={200} className="w-full md:w-[300px] rounded-2xl h-auto"
             />
 
             <div className="flex gap-5 mt-5">

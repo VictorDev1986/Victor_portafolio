@@ -3,6 +3,7 @@ import { CoverParticles } from "@/components/cover-particles";
 import TransitionPage from "@/components/transition-page";
 import IconCloud from "@/components/icon-cloud";
 
+
 const PageAboutMe = () => {
     const slugs = [
         "typescript",
