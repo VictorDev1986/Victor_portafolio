@@ -1,24 +1,23 @@
 
-import { BookText, CodeSquare, HomeIcon, UserRound, Github, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Linkedin } from 'lucide-react';
+import { BookText, CodeSquare, HomeIcon, UserRound, Github, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Linkedin, X } from 'lucide-react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiBootstrap, SiNodedotjs, SiTypescript, SiExpress, SiNextdotjs, SiMysql, SiMongodb, SiLinux } from "react-icons/si";
 export const socialNetworks = [
-
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/-hugosanchez2022/",
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <X size={30} strokeWidth={1} />,
+        src: "https://x.com/HugoDev86",
     },
 
     {
         id: 5,
         logo: <Github size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/VictorDev1986",
     }
 
 ];
@@ -185,13 +184,13 @@ export const technologies = [
         id: 8,
         name: "Express",
         level: "Básico",
-        icon: <SiExpress size={35} color="#ffffff" />
+        icon: <SiExpress size={35} color="#fffff" />
     },
     {
         id: 9,
         name: "NextJs",
         level: "Básico",
-        icon: <SiNextdotjs size={35} color="#ffffff" />
+        icon: <SiNextdotjs size={35} color="#fffff" />
     },
     {
         id: 10,
@@ -201,27 +200,28 @@ export const technologies = [
     },
     {
         id: 11,
-        name: "Git",
-        level: "Básico",
-        icon: <FaGitAlt size={35} color="#F05032" />
-    },
-    {
-        id: 12,
-        name: "GitHub",
-        level: "Básico",
-        icon: <FaGithub size={35} color="#ffffff" />
-    },
-    {
-        id: 13,
         name: "Mysql",
         level: "Básico",
         icon: <SiMysql size={38} color="#4479A1" />
     },
     {
+        id: 12,
+        name: "Git",
+        level: "Básico",
+        icon: <FaGitAlt size={35} color="#F05032" />
+    },
+    {
+        id: 13,
+        name: "GitHub",
+        level: "Básico",
+        icon: <FaGithub size={35} color="#ffffff" />
+    },
+ 
+    {
         id: 14,
         name: "Linux",
         level: "Intermedio",
-        icon: <SiLinux size={35} color="#7952B3" />
+        icon: <SiLinux size={35} color="#ffffff" />
     }
 ];
 

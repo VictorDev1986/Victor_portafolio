@@ -18,7 +18,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     return (
         <div
             key={id}
-            className="w-80 sm:w-full  bg-black/50  p-4 mb-2 rounded-xl shadow-xl border-gray-300"
+            className="w-80 sm:w-full md:max-w  bg-black/50  p-4 mb-2 rounded-xl shadow-xl border-gray-300"
         >
             <h3 className="mb-4 text-xl sm:text-2xl">{title}</h3>
             <Image

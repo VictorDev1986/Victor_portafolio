@@ -17,8 +17,7 @@ const PortfolioPage = () => {
             <ContainerPage>
                 <TransitionPage />
                 <div className="flex flex-col justify-center h-full">
-                    <h1 className="text-2xl font-bold text-center md:block md:text-center bg-gradient-to-r from-green-500 via
-                         to-blue-700 bg-clip-text text-transparent sm:text-4xl">Mis últimos trabajos</h1>
+                    <h1 className="text-2xl font-bold text-center md:block md:text-center text-while sm:text-4xl">Mis últimos trabajos</h1>
 
                     <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-12 md:grid-cols-4 justify-center">
                         {dataPortfolio.map((data) => (
