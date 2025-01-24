@@ -1,8 +1,9 @@
 
 import { BookText, CodeSquare, HomeIcon, UserRound, Github, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Linkedin } from 'lucide-react';
-
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub } from "react-icons/fa";
+import { SiTailwindcss, SiBootstrap, SiNodedotjs, SiTypescript, SiExpress, SiNextdotjs, SiMysql, SiMongodb, SiLinux } from "react-icons/si";
 export const socialNetworks = [
-   
+
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
@@ -13,13 +14,13 @@ export const socialNetworks = [
         logo: <Twitter size={30} strokeWidth={1} />,
         src: "#!",
     },
-    
+
     {
         id: 5,
         logo: <Github size={30} strokeWidth={1} />,
         src: "#!",
     }
-   
+
 ];
 
 
@@ -87,7 +88,7 @@ export const dataAboutPage = [
         description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
         date: "Dic 2022",
         certificateLink: "https://heyzine.com/flip-book/33a9332d95.html"
-        
+
     },
     {
         id: 5,
@@ -135,6 +136,92 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "#!",
     }
-  
+
+];
+export const technologies = [
+    {
+        id: 1,
+        name: "HTML",
+        level: "Intermedio",
+        icon: <FaHtml5 size={35} color="#E34F26" />
+    },
+    {
+        id: 2,
+        name: "CSS",
+        level: "Intermedio",
+        icon: <FaCss3Alt size={35} color="#1572B6" />
+    },
+    {
+        id: 3,
+        name: "Tailwind",
+        level: "Intermedio",
+        icon: <SiTailwindcss size={35} color="#38B2AC" />
+    },
+    {
+        id: 4,
+        name: "JavaScript",
+        level: "Intermedio",
+        icon: <FaJs size={35} color="#F7DF1E" />
+    },
+    {
+        id: 5,
+        name: "Typescript",
+        level: "Básico",
+        icon: <SiTypescript size={35} color="#007ACC" />
+    },
+    {
+        id: 6,
+        name: "React",
+        level: "Intermedio",
+        icon: <FaReact size={35} color="#61DAFB" />
+    },
+    {
+        id: 7,
+        name: "NodeJs",
+        level: "Básico",
+        icon: <SiNodedotjs size={35} color="#339933" />
+    },
+    {
+        id: 8,
+        name: "Express",
+        level: "Básico",
+        icon: <SiExpress size={35} color="#ffffff" />
+    },
+    {
+        id: 9,
+        name: "NextJs",
+        level: "Básico",
+        icon: <SiNextdotjs size={35} color="#ffffff" />
+    },
+    {
+        id: 10,
+        name: "MongoDB",
+        level: "Básico",
+        icon: <SiMongodb size={35} color="#47A248" />
+    },
+    {
+        id: 11,
+        name: "Git",
+        level: "Básico",
+        icon: <FaGitAlt size={35} color="#F05032" />
+    },
+    {
+        id: 12,
+        name: "GitHub",
+        level: "Básico",
+        icon: <FaGithub size={35} color="#ffffff" />
+    },
+    {
+        id: 13,
+        name: "Mysql",
+        level: "Básico",
+        icon: <SiMysql size={38} color="#4479A1" />
+    },
+    {
+        id: 14,
+        name: "Linux",
+        level: "Intermedio",
+        icon: <SiLinux size={35} color="#7952B3" />
+    }
 ];
 
