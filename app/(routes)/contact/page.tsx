@@ -3,7 +3,6 @@ import ContainerPage from "@/components/container";
 import { CoverParticles } from "@/components/cover-particles";
 import TransitionPage from "@/components/transition-page";
 import ContactCard from "@/components/ContactCard";
-import Botones from "@/components/botones";
 
 
 

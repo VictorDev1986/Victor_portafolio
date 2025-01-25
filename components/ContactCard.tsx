@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import Botones from "./botones";
