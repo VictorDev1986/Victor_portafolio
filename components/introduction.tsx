@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Introduction = () => {
     return (
         <div className="z-20 mt-20 md:mt-0">
-        <div className="z-20 grid items-center md:h-full mt-4 p-8 py-20 md:py-0 md:grid-cols-2 sm:px-20">
+        <div className="z-20 grid items-center md:h-full mt-4 p-5 py-20 md:py-0 md:grid-cols-2 sm:px-20">
             <div className="flex flex-col justify-center max-w-full md:mx-20">
                 <h1 className="mb-12 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-6">Hola! soy , <br />
                     <TypeAnimation
