@@ -12,7 +12,7 @@ const TechnologyCard: React.FC<TechnologyCardProps> = ({ name, level, icon }) =>
     <div className="flex flex-col items-center justify-center  bg-black/50  text-center rounded-lg shadow-md p-6">
         <div className="text-5xl mb-4">{icon}</div>
         <h3 className="text-xl font-semibold text-white">{name}</h3>
-        <p className="text-yellow-500 mt-2">{level}</p>
+        <p className="text-green-500 text-sm mt-2">{level}</p>
     </div>
 );
 

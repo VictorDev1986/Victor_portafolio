@@ -109,33 +109,36 @@ export const dataAboutPage = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Agencia",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Extilo Express",
+        image: "/proyecto1.png",
+        urlGithub: "https://estiloexpress.victorsanchez.click/",
+        urlDemo: "https://estiloexpress.victorsanchez.click/",
+        technologies: ["Wordpress, ", "woocommerce"]
     },
     {
         id: 2,
-        title: "DevTree",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Agencia",
+        image: "/agencia.png",
+        urlGithub: "https://victorsanchez.click/",
+        urlDemo: "https://victorsanchez.click/",
+        technologies: ["HTML, ", "CSS, ", "JavaScript"]
     },
     {
         id: 3,
-        title: "Ecommerce",
-        image: "/image-3.jpg",
+        title: "DevTre",
+        image: "/proyectoDesarrollo.png",
         urlGithub: "#!",
         urlDemo: "#!",
+        technologies: ["NextJs, ", "TailwindCSS, ", "MongoDB"]
     },
     {
         id: 4,
-        title: "Guitarla",
-        image: "/image-4.jpg",
+        title: "Ecommerce",
+        image: "/proyectoDesarrollo.png",
         urlGithub: "#!",
         urlDemo: "#!",
+        technologies: ["React, ", "NodeJs. ", "Express"]
     }
-
 ];
 export const technologies = [
     {

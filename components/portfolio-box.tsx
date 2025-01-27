@@ -8,25 +8,28 @@ interface PortfolioBoxProps {
         image: string
         urlGithub: string
         urlDemo: string
+        technologies: string
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const { data } = props
-    const { id, title, image, urlDemo, urlGithub } = data
+    const { id, title, image, urlDemo, urlGithub, technologies } = data
 
     return (
         <div
             key={id}
             className="w-80 sm:w-full md:max-w  bg-black/50  p-4 mb-2 rounded-xl shadow-xl border-gray-300"
         >
-            <h3 className="mb-4 text-xl sm:text-2xl">{title}</h3>
+            <h3 className="text-center mb-4 text-xl sm:text-2xl">{title}</h3>
             <Image
                 src={image}
                 alt="Image"
-                width={200} height={200} className="w-full md:w-[300px] rounded-2xl h-auto"
+                width={500} height={500} className="w-full md:w-[500px] rounded-2xl h-auto transition-transform duration-700 hover:scale-125"
             />
-
+            <div className="mt-4 text-sm gap-5 text-gray-400">
+                {technologies}
+            </div>
             <div className="flex gap-5 mt-5">
                 <Link
                     href={urlGithub}
@@ -49,4 +52,4 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     );
 }
 
-export default PortfolioBox
+export default PortfolioBox;

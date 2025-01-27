@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { FaEnvelope, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaPhone } from "react-icons/fa";
 import Botones from "./botones";
 
 const ContactCard: React.FC = () => {
@@ -19,20 +19,30 @@ const ContactCard: React.FC = () => {
             </p>
           </div>
         </div>
-        
         <div className="flex items-center gap-4 text-xl">
           <FaLinkedin className="text-green-500 text-xl" />
           <div>
             <h3 className="font-semibold text-2xl">LinkedIn</h3>
             <p className="text-xl text-slate-400">
               <a href="https://www.linkedin.com/in/-hugosanchez2022/" className="text-slate-400 hover:underline">
-            @victor sanchez
+                @victor sanchez
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 text-xl">
+          <FaPhone className="text-green-500 text-2xl" />
+          <div>
+            <h3 className="font-semibold text-2xl">Llamame</h3>
+            <p className="text-xl text-slate-400">
+              <a href="tel:+573013829208" className="text-slate-400 hover:underline">
+                +57 301 382 9208
               </a>
             </p>
           </div>
         </div>
       </div>
-      <Botones/> 
+      <Botones />
     </div>
   );
 };
