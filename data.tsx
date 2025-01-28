@@ -113,7 +113,7 @@ export const dataPortfolio = [
         image: "/proyecto1.png",
         urlGithub: "https://estiloexpress.victorsanchez.click/",
         urlDemo: "https://estiloexpress.victorsanchez.click/",
-        technologies: ["Wordpress, ", "woocommerce"]
+        technologies: ["Wordpress  ", "woocommerce"]
     },
     {
         id: 2,
@@ -121,7 +121,7 @@ export const dataPortfolio = [
         image: "/agencia.png",
         urlGithub: "https://victorsanchez.click/",
         urlDemo: "https://victorsanchez.click/",
-        technologies: ["HTML, ", "CSS, ", "JavaScript"]
+        technologies: ["HTML ", "CSS ", "JavaScript"]
     },
     {
         id: 3,
@@ -129,7 +129,7 @@ export const dataPortfolio = [
         image: "/proyectoDesarrollo.png",
         urlGithub: "#!",
         urlDemo: "#!",
-        technologies: ["NextJs, ", "TailwindCSS, ", "MongoDB"]
+        technologies: ["NextJs ", "TailwindCSS ", "MongoDB ", "NodeJs ", "Express", "React"]
     },
     {
         id: 4,
