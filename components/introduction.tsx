@@ -28,7 +28,17 @@ const Introduction = () => {
             </p> 
             
             </div>
-            <Image className="mb-6 " src="/Victor.png" priority width="500" height="500" alt="Avatar" />
+            <div className="relative w-full h-auto overflow-visible">
+                    <Image 
+                        className="mb-6 w-[350px] h-[350px] md:w-[500px] md:h-[500px] object-contain mx-auto"
+                        src="/avatarVictor.png" 
+                        priority 
+                        width={500}
+                        height={500}
+                        alt="Avatar"
+                        sizes="(max-width: 768px) 100vw, (min-width: 769px) 400px"
+                    />
+                </div>
         </div>
     </div>
     );
