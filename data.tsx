@@ -205,7 +205,7 @@ export const technologies = [
     {
         id: 13,
         name: "Docker",
-        icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width={45} height={45} />
+        iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
     },
     {
         id: 14,
