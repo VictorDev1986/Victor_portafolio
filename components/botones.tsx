@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Botones = () => {
     return (
         <div>
-           <div className="flex gap-5 mt-8">
+           <div className="flex gap-5 mt-2">
                 <Link
                     href=""
                     target="_blank"

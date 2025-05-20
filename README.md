@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio Profesional de Victor
 
-## Getting Started
+![Vista previa del proyecto](public/portafolio_victor.png)
 
-First, run the development server:
+[Ver el portafolio en línea](https://victorsanchez.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Descripción breve
+
+Portafolio profesional desarrollado para mostrar proyectos, habilidades y experiencia como desarrollador de software. Incluye una presentación personal, sección de proyectos, habilidades, línea de tiempo y formulario de contacto.
+
+## Estructura del proyecto
+```
+├── app/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── (routes)/
+│       ├── about-me/
+│       │   └── page.tsx
+│       ├── contact/
+│       │   └── page.tsx
+│       ├── portfolio/
+│       │   └── page.tsx
+│       └── skills/
+│           └── page.tsx
+├── components/
+│   ├── botones.tsx
+│   ├── ContactCard.tsx
+│   ├── container-page.tsx
+│   ├── container.tsx
+│   ├── cover-particles.tsx
+│   ├── header.tsx
+│   ├── introduction.tsx
+│   ├── navbar.tsx
+│   ├── portfolio-box.tsx
+│   ├── TechnologiesSection.tsx
+│   ├── time-line.tsx
+│   └── transition-component.tsx
+│   └── transition-page.tsx
+├── lib/
+│   └── utils.ts
+├── public/
+│   ├── agencia.png
+│   ├── avatarVictor.jpg
+│   ├── avatarVictor.png
+│   ├── guitar.jpg
+│   ├── proyecto1.png
+│   ├── proyectoDesarrollo.png
+│   └── Victor.png
+├── utils/
+│   └── motion-transitions.tsx
+├── README.md
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+...otros archivos de configuración
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías utilizadas
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- react-type-animation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Clonar y ejecutar localmente
+```bash
+git clone https://github.com/tuusuario/tu-repo-portafolio.git
+cd tu-repo-portafolio
+npm install
+npm run dev
+```
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Sugerencias para modificar el portafolio
+- Personaliza la información en los componentes de `introduction.tsx`, `about-me/page.tsx` y `skills/page.tsx`.
+- Agrega o edita proyectos en la sección de portfolio modificando el componente `portfolio-box.tsx` o la fuente de datos correspondiente.
+- Cambia los estilos en `globals.css` o ajusta la configuración de Tailwind en `tailwind.config.ts`.
+- Puedes agregar nuevas rutas o secciones creando archivos en la carpeta `app/`.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+¡Siéntete libre de personalizar este portafolio para que se adapte a tu perfil profesional!
