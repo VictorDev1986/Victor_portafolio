@@ -1,7 +1,7 @@
 
 import { BookText, CodeSquare, HomeIcon, UserRound, Github, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Linkedin, X } from 'lucide-react';
 import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaLaravel, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiNodedotjs, SiNextdotjs,FAdocker, SiMysql, SiLinux } from "react-icons/si";
+import { SiTailwindcss, SiNodedotjs, SiNextdotjs, SiMysql, SiLinux } from "react-icons/si";
 export const socialNetworks = [
     {
         id: 2,
