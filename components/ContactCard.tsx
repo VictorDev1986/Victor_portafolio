@@ -24,7 +24,7 @@ const ContactCard: React.FC = () => {
           <div>
             <h3 className="font-semibold text-lg">LinkedIn</h3>
             <p className="text-lg text-slate-400">
-              <a href="https://www.linkedin.com/in/-hugosanchez2022/" className="text-slate-400 hover:underline">
+              <a href="https://www.linkedin.com/in/victorsanchez1986/" className="text-slate-400 hover:underline">
                 @victor sanchez
               </a>
             </p>

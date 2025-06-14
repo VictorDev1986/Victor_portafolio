@@ -8,7 +8,7 @@ const Botones = () => {
         <div>
            <div className="flex gap-5 mt-2">
                 <Link
-                    href=""
+                    href="/Victor_Sanchez  (1).pdf"
                     target="_blank"
                     className="p-2 transition duration-150 rounded-lg  lg border-2 text-while border-green-500 hover:shadow-xl hover:shadow-green-500  "
                 >
