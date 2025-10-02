@@ -61,7 +61,7 @@ export const dataAboutPage = [
         id: 1,
         title: "Ingenieria de sistemas",
         subtitle: "Corporacion unificada nacional de educacion superior (CUN)",
-        description: "Curso actualmente noveno semestre de ingenieria de sistemas.",
+        description: "Curso actualmente decimo semestre de ingenieria de sistemas.",
         date: "Ene 2025 ",
     },
     {
@@ -82,7 +82,7 @@ export const dataAboutPage = [
     },
     {
         id: 4,
-        title: "Tecnologo en Desarrollo de Software",
+        title: "Tecnologo en Desarrollo de",
         subtitle: "Centro Agroempresarial y turustico de los andes",
         description: "Programa tecnológico enfocado en el desarrollo de soluciones informáticas para apoyar procesos organizacionales. Adquirí habilidades para analizar, diseñar, desarrollar e implementar sistemas de información aplicando buenas prácticas de programación y metodologías ágiles.",
         date: "Dic 2022",
@@ -91,14 +91,14 @@ export const dataAboutPage = [
     },
     {
         id: 5,
-        title: "Desarrollador de software (Proyecto Productivo) ",
+        title: "Desarrollador Web - Aprendiz SENA",
         subtitle: "Centro Agroempresarial y turustico de los andes",
         description: "Desarrollé una plataforma eCommerce para la venta de productos digitales, como sitios web, implementando gestión de productos, carrito de compras y pagos seguros, usando metodologías ágiles para garantizar una solución eficiente y escalable..",
         date: "Nov 2022",
     },
     {
         id: 6,
-        title: "Aprendiz Sena",
+        title: "Auxiliar de Soporte Técnico de Software",
         subtitle: "World office Colombia/Asesor de soporte tecnico de  software",
         description: "Realicé mis prácticas productivas brindando soporte técnico a usuarios del software empresarial contable, resolviendo incidencias y apoyando al equipo de soporte en tareas operativas.",
         date: "Marz 2022",
@@ -113,7 +113,7 @@ export const dataPortfolio = [
         image: "/proyecto1.png",
         urlGithub: "https://estiloexpress.victorsanchez.click/",
         urlDemo: "https://estiloexpress.victorsanchez.click/",
-        technologies: ["Wordpress  ", "woocommerce"]
+        technologies: ["Wordpress", "WooCommerce"]
     },
     {
         id: 2,
@@ -121,7 +121,7 @@ export const dataPortfolio = [
         image: "/agencia.png",
         urlGithub: "https://victorsanchez.click/",
         urlDemo: "https://victorsanchez.click/",
-        technologies: ["HTML ", "CSS ", "JavaScript"]
+        technologies: ["HTML", "CSS", "JavaScript"]
     },
     {
         id: 3,
@@ -129,7 +129,7 @@ export const dataPortfolio = [
         image: "/proyectoDesarrollo.png",
         urlGithub: "#!",
         urlDemo: "#!",
-        technologies: ["NextJs ", "TailwindCSS ", "MongoDB ", "NodeJs ", "Express", "React"]
+        technologies: ["Next.js", "TailwindCSS", "MongoDB", "Node.js", "Express", "React"]
     },
     {
         id: 4,
@@ -137,8 +137,25 @@ export const dataPortfolio = [
         image: "/proyectoDesarrollo.png",
         urlGithub: "#!",
         urlDemo: "#!",
-        technologies: ["React, ", "NodeJs. ", "Express"]
+        technologies: ["React", "Node.js", "Express"]
+    },
+    {
+        id: 5,
+        title: "Plataforma Digital",
+        image: "/proyectoDesarrollo.png",
+        urlGithub: "#!",
+        urlDemo: "#!",
+        technologies: ["React", "Node.js", "Express"]
+    },
+    {
+        id: 6,
+        title: "Sistema de Gestión",
+        image: "/proyectoDesarrollo.png",
+        urlGithub: "#!",
+        urlDemo: "#!",
+        technologies: ["React", "Node.js", "Express"]
     }
+   
 ];
 export const technologies = [
     {
