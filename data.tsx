@@ -110,51 +110,44 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Extilo Express",
-        image: "/proyecto1.png",
-        urlGithub: "https://estiloexpress.victorsanchez.click/",
-        urlDemo: "https://estiloexpress.victorsanchez.click/",
-        technologies: ["Wordpress", "WooCommerce"]
+        image: "/Ecommerce.png",
+        urlGithub: "https://estiloexpress.victorsanchezt.com/",
+        urlDemo: "https://estiloexpress.victorsanchezt.com/",
+        technologies: ["Wordpress","php","WooCommerce","mysql"]
     },
     {
         id: 2,
-        title: "Agencia",
-        image: "/agencia.png",
-        urlGithub: "https://victorsanchez.click/",
-        urlDemo: "https://victorsanchez.click/",
-        technologies: ["HTML", "CSS", "JavaScript"]
+        title: "Portafolio",
+        image: "/portafolio.png",
+        urlGithub: "https://github.com/VictorDev1986/victor-freelance.git/",
+        urlDemo: "https://victorsanchezt.com//",
+        technologies: ["TypeScript", "React", "TailwindCSS",]
     },
     {
         id: 3,
-        title: "DevTre",
-        image: "/proyectoDesarrollo.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        technologies: ["Next.js", "TailwindCSS", "MongoDB", "Node.js", "Express", "React"]
+        title: "ECommerce-Api",
+        image: "/Api.png",
+        urlGithub: "https://github.com/VictorDev1986/Ecommerce-Api.git/",
+        urlDemo: "https://shopi1.netlify.app/",
+        technologies: ["java script", "React", "TailwindCSS", "Axios"]
     },
     {
         id: 4,
-        title: "Ecommerce",
-        image: "/proyectoDesarrollo.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        technologies: ["React", "Node.js", "Express"]
+        title: "Pet-vet",
+        image: "/Landing.png",
+        urlGithub: "https://github.com/VictorDev1986/pet-vet.git",
+        urlDemo: "https://victordev1986.github.io/pet-vet/",
+        technologies: ["HTML", "CSS", "JavaScript"]
     },
     {
         id: 5,
-        title: "Plataforma Digital",
-        image: "/proyectoDesarrollo.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        technologies: ["React", "Node.js", "Express"]
-    },
-    {
-        id: 6,
-        title: "Sistema de Gestión",
-        image: "/proyectoDesarrollo.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
-        technologies: ["React", "Node.js", "Express"]
+        title: "MovieFlix-Api",
+        image: "/Clon_netflix.png",
+        urlGithub: "https://github.com/VictorDev1986/MovieFlix.git",
+        urlDemo: "https://moviefl.netlify.app/",
+        technologies: ["TypeScript", "React", "TailwindCSS","Axios"]
     }
+
    
 ];
 export const technologies = [
