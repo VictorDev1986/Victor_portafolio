@@ -125,11 +125,11 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "ECommerce-Api",
-        image: "/Api.png",
-        urlGithub: "https://github.com/VictorDev1986/Ecommerce-Api.git/",
-        urlDemo: "https://shopi1.netlify.app/",
-        technologies: ["java script", "React", "TailwindCSS", "Axios"]
+        title: "Carosublimados",
+        image: "/carosublimados.png",
+        urlGithub: "https://carosublimados.shop/",
+        urlDemo: "https://carosublimados.shop/",
+        technologies: ["Wordpress","php","WooCommerce","mysql"]
     },
     {
         id: 4,

@@ -13,13 +13,13 @@ const Introduction = () => {
                 {/* Contenedor de la imagen profesional - Ahora a la izquierda en desktop */}
                 <div className="relative w-full h-auto overflow-visible order-1 md:order-1">
                     <Image
-                        className="mb-6 w-[280px] h-[280px] md:w-[500px] md:h-[500px] object-cover mx-auto rounded-full border-4 border-gray-200 shadow-lg"
+                        className="mb-6 w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[450px] lg:h-[450px] object-cover mx-auto rounded-full border-4 border-gray-200 shadow-lg"
                         src="/fotoprofesional.png"
                         priority
                         width={500}
                         height={500}
                         alt="Foto profesional de Victor - Desarrollador de software"
-                        sizes="(max-width: 768px) 280px, (min-width: 769px) 500px"
+                        sizes="(max-width: 768px) 280px, (min-width: 769px) 450px"
                         onError={(e) => console.log('Error cargando imagen:', e)}
                         onLoad={() => console.log('Imagen cargada correctamente')}
                     />
@@ -42,7 +42,7 @@ const Introduction = () => {
                         />
                     </h1>
                     {/* Descripción profesional */}
-                    <p className="text-slate-300 mx-auto mt-0 text-lg sm:text-xl md:text-xl lg:text-2xl md:mx-0 md:mb-6 leading-relaxed font-medium">
+                    <p className="text-slate-300 mx-auto mt-0 text-lg sm:text-lg md:text-base lg:text-lg md:mx-0 md:mb-6 leading-relaxed font-medium">
                         Estudiante de Ingeniería de Sistemas (10º semestre) y desarrollador de software junior enfocado en el desarrollo web fullstack. Experiencia
                         en proyectos académicos y personales con tecnologías modernas como React, PHP, MySQL y TailwindCSS. Interesado en aportar valor
                         en equipos dinámicos aplicando buenas prácticas, metodologías ágiles y herramientas de cloud e inteligencia artificial.
