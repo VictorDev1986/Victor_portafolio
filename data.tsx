@@ -146,6 +146,14 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/VictorDev1986/MovieFlix.git",
         urlDemo: "https://moviefl.netlify.app/",
         technologies: ["TypeScript", "React", "TailwindCSS","Axios"]
+    },
+     {
+        id: 6,
+        title: "Mi podcats",
+        image: "/podcats.png",
+        urlGithub: "https://github.com/VictorDev1986/Mi-Podcast.git",
+        urlDemo: "https://mi-podcast.vercel.app/",
+        technologies: ["JavaScript", "React", "TailwindCSS"]
     }
 
    
