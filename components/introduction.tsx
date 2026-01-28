@@ -13,8 +13,8 @@ const Introduction = () => {
                 {/* Contenedor de la imagen profesional - Ahora a la izquierda en desktop */}
                 <div className="relative w-full h-auto overflow-visible order-1 md:order-1">
                     <Image
-                        className="mb-6 w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[450px] lg:h-[450px] object-cover mx-auto rounded-full border-4 border-gray-200 shadow-lg"
-                        src="/fotoprofesional.png"
+                        className="mb-6 w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[350px] lg:h-[350px] object-cover mx-auto rounded-full border-[3px] border-emerald-500/30 shadow-2xl hover:scale-105 transition-transform duration-300"
+                        src="/foto_perfil.jpg"
                         priority
                         width={500}
                         height={500}
@@ -30,9 +30,11 @@ const Introduction = () => {
                         {/* Animación de texto que muestra el rol profesional */}
                         <TypeAnimation
                             sequence={[
-                                'Desarrollador de software',
+                                'Desarrollador de Software',
                                 1000,
-                                'Desarrollador de software',
+                                'Soporte TI',
+                                1000,
+                                'Ingeniero de Sistemas',
                                 1000,
                             ]}
                             wrapper="span"
@@ -43,9 +45,10 @@ const Introduction = () => {
                     </h1>
                     {/* Descripción profesional */}
                     <p className="text-slate-300 mx-auto mt-0 text-lg sm:text-lg md:text-base lg:text-lg md:mx-0 md:mb-6 leading-relaxed font-medium">
-                        Estudiante de Ingeniería de Sistemas (10º semestre) y desarrollador de software junior enfocado en el desarrollo web fullstack. Experiencia
-                        en proyectos académicos y personales con tecnologías modernas como React, PHP, MySQL y TailwindCSS. Interesado en aportar valor
-                        en equipos dinámicos aplicando buenas prácticas, metodologías ágiles y herramientas de cloud e inteligencia artificial.
+                        Tecnólogo en Análisis y Desarrollo de Sistemas de Información y estudiante de décimo semestre de Ingeniería de Sistemas, con
+                        experiencia en soporte TI y desarrollo de software, destacándome por mi rápida capacidad de aprendizaje, adaptación a nuevos
+                        entornos tecnológicos y enfoque en aportar soluciones que mejoren la eficiencia operativa mediante programación, automatización
+                        y soporte técnico de calidad.
                     </p>
                 </div>
             </div>

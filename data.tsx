@@ -6,7 +6,7 @@ export const socialNetworks = [
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "https://www.linkedin.com/in/-hugosanchez2022/",
+        src: "https://www.linkedin.com/in/victorsanchez1986/",
     },
     {
         id: 3,
@@ -59,49 +59,45 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Ingenieria de sistemas",
-        subtitle: "Corporacion unificada nacional de educacion superior (CUN)",
-        description: "Curso actualmente decimo semestre de ingenieria de sistemas.",
-        date: "Ene 2025 ",
+        title: "Operador de Medios Tecnológicos y Soporte TI",
+        subtitle: "Multiseg Ltda",
+        description: "• Soporte técnico hardware/software y administración de servidores Windows/Linux.\n• Monitoreo, diagnóstico y solución de incidencias en redes y equipos.\n• Gestión de tickets y continuidad operativa.",
+        date: "Sept 2024 – Dic 2025",
     },
     {
         id: 2,
-        title: "Bootcamp Desarrollo full stack Nivel intermedio",
-        subtitle: "Talento Tech",
-        description: "Formación intensiva de 3 meses que combino teoría y práctica en el desarrollo web Full Stack, con un enfoque en metodologías ágiles y trabajo colaborativo, para construir aplicaciones web eficientes y escalables. .",
-        date: "Nov 2024 ",
-        certificateLink: "https://certificados.talentotech.co/?cert=2584682232&fingerprint=y#pdf"
+        title: "Desarrollador de software y Soporte TI",
+        subtitle: "Refrielectro industrial Ltda",
+        description: "• Desarrollo de sistema web de inventarios/facturación (Laravel, Tailwind, MySQL).\n• Soporte técnico y levantamiento de requerimientos.\n• Desarrollo de página corporativa.",
+        date: "Sept 2025 – Nov 2025",
     },
-
     {
         id: 3,
-        title: "Agencia de diseño y desarrollo web",
-        subtitle: "Freelancer",
-        description: "Fundé una pequeña agencia freelance especializada en diseño y desarrollo de sitios web modernos para emprendedores, negocios locales y marcas personales. En este rol he trabajado directamente con clientes, liderando todas las etapas del proyecto: desde el diseño hasta la implementación final.",
-        date: "feb 2024",
+        title: "Auxiliar de Soporte Técnico",
+        subtitle: "World Office",
+        description: "• Soporte remoto a usuarios del software contable.\n• Mantenimiento de bases de datos y documentación de incidencias.",
+        date: "Ene 2022 – Jun 2022",
     },
     {
         id: 4,
-        title: "Tecnologo en Desarrollo de",
-        subtitle: "Centro Agroempresarial y turustico de los andes",
-        description: "Programa tecnológico enfocado en el desarrollo de soluciones informáticas para apoyar procesos organizacionales. Adquirí habilidades para analizar, diseñar, desarrollar e implementar sistemas de información aplicando buenas prácticas de programación y metodologías ágiles.",
-        date: "Dic 2022",
-        certificateLink: "https://heyzine.com/flip-book/33a9332d95.html"
-
+        title: "Ingeniería de Sistemas",
+        subtitle: "CUN",
+        description: "• Décimo semestre (Pensum finalizado).",
+        date: "En curso",
     },
     {
         id: 5,
-        title: "Desarrollador Web - Aprendiz SENA",
-        subtitle: "Centro Agroempresarial y turustico de los andes",
-        description: "Desarrollé una plataforma eCommerce para la venta de productos digitales, como sitios web, implementando gestión de productos, carrito de compras y pagos seguros, usando metodologías ágiles para garantizar una solución eficiente y escalable..",
-        date: "Nov 2022",
+        title: "Bootcamp Desarrollo Fullstack",
+        subtitle: "Talento Tech",
+        description: "• Formación intensiva en desarrollo web moderno y metodologías ágiles.",
+        date: "2024",
     },
     {
         id: 6,
-        title: "Auxiliar de Soporte Técnico de Software",
-        subtitle: "World office Colombia/Asesor de soporte tecnico de  software",
-        description: "Realicé mis prácticas productivas brindando soporte técnico a usuarios del software empresarial contable, resolviendo incidencias y apoyando al equipo de soporte en tareas operativas.",
-        date: "Marz 2022",
+        title: "Tecnólogo en Análisis de Sistemas",
+        subtitle: "SENA",
+        description: "• Formación en análisis, diseño y desarrollo de software.",
+        date: "2021 – 2022",
     },
 ]
 
@@ -113,7 +109,7 @@ export const dataPortfolio = [
         image: "/Ecommerce.png",
         urlGithub: "https://estiloexpress.victorsanchezt.com/",
         urlDemo: "https://estiloexpress.victorsanchezt.com/",
-        technologies: ["Wordpress","php","WooCommerce","mysql"]
+        technologies: ["Wordpress", "php", "WooCommerce", "mysql"]
     },
     {
         id: 2,
@@ -125,11 +121,11 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "Carosublimados",
-        image: "/carosublimados.png",
-        urlGithub: "https://carosublimados.shop/",
-        urlDemo: "https://carosublimados.shop/",
-        technologies: ["Wordpress","php","WooCommerce","mysql"]
+        title: "Cmtech",
+        image: "/proyecto_cm.png",
+        urlGithub: "https://cmtechcol.online/",
+        urlDemo: "https://cmtechcol.online/",
+        technologies: ["Wordpress", "php", "WooCommerce", "mysql"]
     },
     {
         id: 4,
@@ -145,9 +141,9 @@ export const dataPortfolio = [
         image: "/Clon_netflix.png",
         urlGithub: "https://github.com/VictorDev1986/MovieFlix.git",
         urlDemo: "https://moviefl.netlify.app/",
-        technologies: ["TypeScript", "React", "TailwindCSS","Axios"]
+        technologies: ["TypeScript", "React", "TailwindCSS", "Axios"]
     },
-     {
+    {
         id: 6,
         title: "Mi podcats",
         image: "/podcats.png",
@@ -156,7 +152,7 @@ export const dataPortfolio = [
         technologies: ["JavaScript", "React", "TailwindCSS"]
     }
 
-   
+
 ];
 export const technologies = [
     {
@@ -179,7 +175,7 @@ export const technologies = [
         name: "JavaScript",
         icon: <FaJs size={35} color="#F7DF1E" />
     },
-        {
+    {
         id: 5,
         name: "React",
         icon: <FaReact size={35} color="#61DAFB" />
@@ -194,7 +190,6 @@ export const technologies = [
         name: "Laravel",
         icon: <FaLaravel size={35} color="#FF2D20" />
     },
-
     {
         id: 8,
         name: "NodeJs",
@@ -203,7 +198,7 @@ export const technologies = [
     {
         id: 9,
         name: "NextJs",
-        icon: <SiNextdotjs size={35} color="#fffff" />
+        icon: <SiNextdotjs size={35} color="#ffffff" />
     },
     {
         id: 10,
@@ -229,6 +224,21 @@ export const technologies = [
         id: 14,
         name: "Linux",
         icon: <SiLinux size={35} color="#ffffff" />
+    },
+    {
+        id: 15,
+        name: "Python",
+        iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
+        id: 16,
+        name: "MongoDB",
+        iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    },
+    {
+        id: 17,
+        name: "AWS",
+        iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
     }
 ];
 
