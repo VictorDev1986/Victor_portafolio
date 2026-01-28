@@ -24,10 +24,7 @@ const Introduction = () => {
                             sequence={[
                                 'Software Developer',
                                 1000,
-                                'Fullstack Developer',
-                                1000,
-                                'Frontend Specialist',
-                                1000,
+                                'Fullstack Developer',  
                             ]}
                             wrapper="span"
                             speed={50}
@@ -36,10 +33,9 @@ const Introduction = () => {
                         />
                     </div>
                     <p className="text-slate-700 mx-auto mt-0 text-lg sm:text-lg md:text-base lg:text-lg md:mx-0 md:mb-6 leading-relaxed font-medium">
-                        Fullstack Developer specialized in Frontend, with extensive experience creating modern and responsive 
-                        user interfaces using React, TypeScript, and Laravel. I combine my background as a Systems Analyst 
-                        and Systems Engineer with backend development, cloud infrastructure (AWS), and IT support skills, 
-                        focusing on building exceptional digital experiences that enhance user interaction and operational efficiency.
+                       I am a Software Analysis and Development Technologist and Systems Engineer with over 3 years of experience developing web solutions focused on performance, scalability, and user experience. My main strength lies in the frontend, where I work with React and TypeScript to build modern, maintainable interfaces following best practices.
+
+On the backend, I have developed applications and APIs using PHP and Laravel, integrating business logic, databases, and services that support full-stack applications. I am based in Colombia and stand out for my commitment, adaptability, and focus on continuous improvement, delivering efficient and high-quality solutions in every project.
                     </p>
                 </div>
             </div>
