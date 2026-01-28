@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "Victor Sanchez",
     description: "Mi portafolio hecho en react y nextjs",
+    icons: {
+        icon: "/favicon.png",
+    },
 };
 
 export default function RootLayout({

@@ -1,27 +1,26 @@
 'use client';
 
-import React from 'react';
-import Link from 'next/link';
-
 const Botones = () => {
     return (
-        <div>
+        <div className="relative z-50">
            <div className="flex gap-5 mt-2">
-                <Link
-                    href="/Victor Sanchez.pdf"
+                <a
+                    href="/Victor%20Sanchez.pdf"
                     target="_blank"
-                    className="p-2 transition duration-150 rounded-lg  lg border-2 text-while border-green-500 hover:shadow-xl hover:shadow-green-500  "
+                    rel="noopener noreferrer"
+                    className="p-2 px-4 transition duration-150 rounded-lg border-2 text-slate-700 border-emerald-500 hover:bg-emerald-50 hover:shadow-xl hover:shadow-emerald-500/30 font-semibold cursor-pointer"
                 >
-                    Hoja de vida
-                </Link>
+                    CV
+                </a>
 
-                <Link
-                    href="https://github.com/VictorDev1986 "
+                <a
+                    href="https://github.com/VictorDev1986"
                     target="_blank"
-                    className="p-2 transition duration-150 rounded-lg lg border-2  text-while border-green-500 hover:shadow-xl hover:shadow-green-500"
+                    rel="noopener noreferrer"
+                    className="p-2 px-4 transition duration-150 rounded-lg border-2 text-slate-700 border-emerald-500 hover:bg-emerald-50 hover:shadow-xl hover:shadow-emerald-500/30 font-semibold cursor-pointer"
                 >
-                    Git Hub
-                </Link>
+                    GitHub
+                </a>
             </div>
         </div>
     );

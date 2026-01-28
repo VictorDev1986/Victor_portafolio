@@ -1,23 +1,38 @@
-# Portafolio Profesional de Victor
+# Victor Sanchez — Portafolio Profesional
 
-![Vista previa del proyecto](public/portafolio_victor.png)
+![Vista previa del proyecto](public/portafolio.png)
 
-[Ver el portafolio en línea](https://victorsanchez.vercel.app/)
+[Sitio en línea](https://victorsanchez.vercel.app/)
 
-## Descripción breve
+## Descripción
 
-Portafolio profesional desarrollado para mostrar proyectos, habilidades y experiencia como desarrollador de software. Incluye una presentación personal, sección de proyectos, habilidades, línea de tiempo y formulario de contacto.
+Portafolio moderno desarrollado con Next.js para presentar proyectos, habilidades y datos de contacto. Incluye página principal, sección de habilidades, portafolio en grid y página de contacto con enlaces sociales.
+
+## Características
+
+- Arquitectura App Router
+- Interfaz responsive con Tailwind CSS
+- Transiciones animadas y fondo de partículas
+- Componentes modulares y datos centralizados
+
+## Tecnologías
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- TS Particles
 
 ## Estructura del proyecto
+
 ```
 ├── app/
-│   ├── favicon.ico
+│   ├── favicon.png
 │   ├── globals.css
 │   ├── layout.tsx
 │   ├── page.tsx
 │   └── (routes)/
-│       ├── about-me/
-│       │   └── page.tsx
 │       ├── contact/
 │       │   └── page.tsx
 │       ├── portfolio/
@@ -27,7 +42,6 @@ Portafolio profesional desarrollado para mostrar proyectos, habilidades y experi
 ├── components/
 │   ├── botones.tsx
 │   ├── ContactCard.tsx
-│   ├── container-page.tsx
 │   ├── container.tsx
 │   ├── cover-particles.tsx
 │   ├── header.tsx
@@ -35,49 +49,52 @@ Portafolio profesional desarrollado para mostrar proyectos, habilidades y experi
 │   ├── navbar.tsx
 │   ├── portfolio-box.tsx
 │   ├── TechnologiesSection.tsx
-│   ├── time-line.tsx
-│   └── transition-component.tsx
+│   ├── transition-component.tsx
 │   └── transition-page.tsx
 ├── lib/
 │   └── utils.ts
 ├── public/
-│   ├── agencia.png
-│   ├── avatarVictor.jpg
-│   ├── avatarVictor.png
-│   ├── guitar.jpg
-│   ├── proyecto1.png
+│   ├── Api.png
+│   ├── Clon_netflix.png
+│   ├── Ecommerce.png
+│   ├── Landing.png
+│   ├── foto_perfil.jpg
+│   ├── podcats.png
+│   ├── portafolio.png
+│   ├── proyecto_cm.png
 │   ├── proyectoDesarrollo.png
-│   └── Victor.png
+│   └── Victor Sanchez.pdf
 ├── utils/
 │   └── motion-transitions.tsx
-├── README.md
+├── data.tsx
 ├── package.json
 ├── tailwind.config.ts
-├── tsconfig.json
-...otros archivos de configuración
+└── tsconfig.json
 ```
 
-## Tecnologías utilizadas
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- react-type-animation
+## Inicio rápido
 
-## Clonar y ejecutar localmente
 ```bash
-git clone https://github.com/tuusuario/tu-repo-portafolio.git
-cd tu-repo-portafolio
+git clone https://github.com/<tu-usuario>/<tu-repo>.git
+cd <tu-repo>
 npm install
 npm run dev
 ```
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-## Sugerencias para modificar el portafolio
-- Personaliza la información en los componentes de `introduction.tsx`, `about-me/page.tsx` y `skills/page.tsx`.
-- Agrega o edita proyectos en la sección de portfolio modificando el componente `portfolio-box.tsx` o la fuente de datos correspondiente.
-- Cambia los estilos en `globals.css` o ajusta la configuración de Tailwind en `tailwind.config.ts`.
-- Puedes agregar nuevas rutas o secciones creando archivos en la carpeta `app/`.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
----
-¡Siéntete libre de personalizar este portafolio para que se adapte a tu perfil profesional!
+## Personalización
+
+- Actualiza el texto y rol en `components/introduction.tsx`.
+- Edita proyectos del portafolio en `data.tsx` (`dataPortfolio`).
+- Ajusta el stack tecnológico en `data.tsx` (`technologiesByCategory`).
+- Cambia estilos globales en `app/globals.css` o en Tailwind.
+
+## Despliegue
+
+Compila y despliega con Vercel o cualquier proveedor compatible con Node.js.
+
+```bash
+npm run build
+npm run start
+```

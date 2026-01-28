@@ -11,7 +11,7 @@ interface TechnologyCardProps {
 
 const TechnologyIcon: React.FC<{ tech: TechnologyCardProps }> = ({ tech }) => {
     if (React.isValidElement(tech.icon)) {
-        return React.cloneElement(tech.icon as React.ReactElement<any>, {
+        return React.cloneElement(tech.icon as React.ReactElement<{ size?: number }>, {
             size: 20,
         });
     }
@@ -94,10 +94,10 @@ const CategorySnippet: React.FC<{ config: TechnologyCategoryConfig }> = ({ confi
 };
 
 const TechnologiesSection = () => (
-    <section className="-mt-2 pt-24 pb-40 px-4 bg-white">
+    <section className="-mt-2 pt-2 pb-40 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
             
-            <div className="mt-16 grid gap-10 md:grid-cols-2">
+            <div className="mt-4 grid gap-10 md:grid-cols-2">
                 {technologyCategoryConfigs.map((config) => (
                     <CategorySnippet key={config.key} config={config} />
                 ))}
