@@ -26,8 +26,9 @@ const Introduction = () => {
                 </div>
                 {/* Sección de texto con información personal - Ahora a la derecha en desktop */}
                 <div className="flex flex-col justify-center max-w-full md:mx-20 order-2 md:order-2">
-                    <h1 className="mb-8 text-3xl sm:text-4xl leading-tight text-center md:text-left md:text-5xl lg:text-6xl md:mb-8 font-extrabold">Hola! soy , <br />
-                        {/* Animación de texto que muestra el rol profesional */}
+
+                    {/* Animación de texto que muestra el rol profesional */}
+                    <div className="h-24 md:h-32 flex items-center mb-6 md:mb-8">
                         <TypeAnimation
                             sequence={[
                                 'Desarrollador de Software',
@@ -40,9 +41,9 @@ const Introduction = () => {
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
-                            className="font-bold bg-gradient-to-r from-green-500 via-green-400 to-blue-700 bg-clip-text text-transparent"
+                            className="font-bold bg-gradient-to-r from-green-500 via-green-400 to-blue-700 bg-clip-text text-transparent text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-full block"
                         />
-                    </h1>
+                    </div>
                     {/* Descripción profesional */}
                     <p className="text-slate-300 mx-auto mt-0 text-lg sm:text-lg md:text-base lg:text-lg md:mx-0 md:mb-6 leading-relaxed font-medium">
                         Tecnólogo en Análisis y Desarrollo de Sistemas de Información y estudiante de décimo semestre de Ingeniería de Sistemas, con
