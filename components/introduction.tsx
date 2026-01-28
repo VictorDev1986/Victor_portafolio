@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Introduction = () => {
     return (
-        <div className="z-20 mt-20 md:mt-0 relative">
+        <div className="z-20 mt-20 md:mt-0 mb-24 md:mb-16 relative">
             <div className="z-20 grid items-center md:h-full mt-4 p-5 py-20 md:py-0 md:grid-cols-2 sm:px-20">
                 <div className="relative w-full h-auto overflow-visible order-1 md:order-1">
                     <Image
@@ -18,8 +18,8 @@ const Introduction = () => {
                         onLoad={() => console.log('Imagen cargada correctamente')}
                     />
                 </div>
-                <div className="flex flex-col justify-center max-w-full md:mx-20 order-2 md:order-2">
-                    <div className="h-24 md:h-32 flex items-center mb-6 md:mb-8">
+                <div className="flex flex-col items-center text-center md:items-start md:text-left justify-center max-w-full md:mx-20 order-2 md:order-2">
+                    <div className="h-24 md:h-32 flex items-center mb-4 md:mb-8">
                         <TypeAnimation
                             sequence={[
                                 'Software Developer',
@@ -33,7 +33,7 @@ const Introduction = () => {
                             className="font-bold bg-gradient-to-r from-green-600 via-emerald-500 to-blue-600 bg-clip-text text-transparent text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-full block"
                         />
                     </div>
-                    <p className="text-slate-700 mx-auto mt-0 text-lg sm:text-lg md:text-base lg:text-lg md:mx-0 md:mb-6 leading-relaxed font-medium">
+                    <p className="text-slate-700 mx-auto mt-0 mb-6 pt-2 pb-2 text-lg sm:text-lg md:text-base lg:text-lg md:mx-0 md:mb-10 leading-relaxed font-medium">
                         Fullstack Developer specialized in Frontend, with extensive experience creating modern and responsive 
                         user interfaces using React, TypeScript, and Laravel. I combine my background as a Systems Analyst 
                         and Systems Engineer with backend development, cloud infrastructure (AWS), and IT support skills, 
