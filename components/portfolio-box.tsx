@@ -17,8 +17,8 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
     const { title, image, urlDemo, urlGithub, technologies } = data
 
     return (
-        <div className="w-80 sm:w-full md:max-w bg-white/80 backdrop-blur-sm p-6 mb-2 rounded-xl shadow-md hover:shadow-lg border border-slate-200 hover:border-emerald-300 transition-all duration-300">
-            <h3 className="text-center mb-4 text-xl sm:text-2xl font-bold text-slate-800">{title}</h3>
+        <div className="w-80 sm:w-full md:max-w bg-white/80 backdrop-blur-sm p-6 mb-80 sm:mb-52 rounded-xl shadow-md hover:shadow-lg border border-slate-200 hover:border-emerald-300 transition-all duration-300">
+            <h3 className="text-center mb-12 text-xl sm:text-2xl font-bold text-slate-800">{title}</h3>
             <Image
                 src={image}
                 alt="Image"

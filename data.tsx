@@ -1,5 +1,5 @@
 
-import { Terminal, Code2, Layers, Send, Github, Linkedin, X } from 'lucide-react';
+import { Home, Terminal, Code2, Layers, Send, Github, Linkedin, X } from 'lucide-react';
 import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaLaravel, FaGitAlt, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiNodedotjs, SiNextdotjs, SiMysql, SiLinux, SiTypescript } from "react-icons/si";
 export const socialNetworks = [
@@ -27,13 +27,13 @@ export const itemsNavbar = [
     {
         id: 1,
         title: "Inicio",
-        icon: <Terminal size={30} strokeWidth={1.5} />,
+        icon: <Home size={30} strokeWidth={1.5} />,
         link: "/",
     },
     {
         id: 3,
         title: "Skills",
-        icon: <Code2 size={30} strokeWidth={1.5} />,
+        icon: <Terminal size={30} strokeWidth={1.5} />,
         link: "/skills",
     },
     {
