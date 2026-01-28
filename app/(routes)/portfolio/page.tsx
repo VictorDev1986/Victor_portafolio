@@ -4,7 +4,7 @@ import { CoverParticles } from "@/components/cover-particles";
 import { dataPortfolio } from "@/data";
 
 import TransitionPage from "@/components/transition-page";
-import ContainerPage from "@/components/container-page";
+import ContainerPage from "@/components/container";
 import PortfolioBox from "@/components/portfolio-box";
 
 

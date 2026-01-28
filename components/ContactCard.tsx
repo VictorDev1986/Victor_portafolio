@@ -6,36 +6,36 @@ import Botones from "./botones";
 
 const ContactCard: React.FC = () => {
   return (
-    <div className="bg-black/50 mt-4 text-while rounded-lg shadow-md p-6 w-full max-w-md mx-auto">
+    <div className="bg-white/80 backdrop-blur-sm mt-4 rounded-lg shadow-md hover:shadow-lg border border-slate-200 p-6 w-full max-w-md mx-auto transition-all duration-300">
       <div className="mb-4">
         <div className="flex items-center gap-4 mb-3 text-xl">
-          <FaEnvelope className="text-green-500 text-2xl" />
+          <FaEnvelope className="text-emerald-600 text-2xl" />
           <div>
-            <h3 className="font-semibold text-lg">Email</h3>
-            <p className="text-lg text-slate-400">
-              <a href="mailto:victordev1986@gmail.com" className="text-slate-400 hover:underline">
+            <h3 className="font-semibold text-lg text-slate-800">Email</h3>
+            <p className="text-lg text-slate-600">
+              <a href="mailto:victordev1986@gmail.com" className="text-slate-600 hover:text-emerald-600 hover:underline transition-colors">
                 victordev1986@gmail.com
               </a>
             </p>
           </div>
         </div>
         <div className="flex items-center gap-4 text-xl">
-          <FaLinkedin className="text-green-500 text-xl" />
+          <FaLinkedin className="text-emerald-600 text-xl" />
           <div>
-            <h3 className="font-semibold text-lg">LinkedIn</h3>
-            <p className="text-lg text-slate-400">
-              <a href="https://www.linkedin.com/in/victorsanchez1986/" className="text-slate-400 hover:underline">
+            <h3 className="font-semibold text-lg text-slate-800">LinkedIn</h3>
+            <p className="text-lg text-slate-600">
+              <a href="https://www.linkedin.com/in/victorsanchez1986/" className="text-slate-600 hover:text-emerald-600 hover:underline transition-colors">
                 @victor sanchez
               </a>
             </p>
           </div>
         </div>
         <div className="flex items-center gap-4 text-xl">
-          <FaPhone className="text-green-500 text-2xl" />
+          <FaPhone className="text-emerald-600 text-2xl" />
           <div>
-            <h3 className="font-semibold text-lg">Llamame</h3>
-            <p className="text-lg text-slate-400">
-              <a href="tel:+573013829208" className="text-slate-400 hover:underline">
+            <h3 className="font-semibold text-lg text-slate-800">Llamame</h3>
+            <p className="text-lg text-slate-600">
+              <a href="tel:+573013829208" className="text-slate-600 hover:text-emerald-600 hover:underline transition-colors">
                 +57 301 382 9208
               </a>
             </p>

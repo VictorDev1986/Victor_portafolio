@@ -18,7 +18,7 @@ export const CoverParticles = () => {
 
     return (
         init &&
-        <div className="w-[0px]">
+        <div className="absolute inset-0 w-full h-full z-10">
             <Particles
                 id="tsparticles"
                 options={{
@@ -46,10 +46,10 @@ export const CoverParticles = () => {
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#333333",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#333333",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,

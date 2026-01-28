@@ -1,7 +1,7 @@
 
-import { BookText, CodeSquare, HomeIcon, UserRound, Github, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Linkedin, X } from 'lucide-react';
+import { Terminal, Code2, Layers, Send, Github, Linkedin, X } from 'lucide-react';
 import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaLaravel, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiNodedotjs, SiNextdotjs, SiMysql, SiLinux } from "react-icons/si";
+import { SiTailwindcss, SiNodedotjs, SiNextdotjs, SiMysql, SiLinux, SiTypescript } from "react-icons/si";
 export const socialNetworks = [
     {
         id: 2,
@@ -26,32 +26,26 @@ export const socialNetworks = [
 export const itemsNavbar = [
     {
         id: 1,
-        title: "Home",
-        icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
+        title: "Inicio",
+        icon: <Terminal size={30} strokeWidth={1.5} />,
         link: "/",
     },
     {
-        id: 2,
-        title: "User",
-        icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
-        link: "/about-me",
-    },
-    {
         id: 3,
-        title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+        title: "Skills",
+        icon: <Code2 size={30} strokeWidth={1.5} />,
         link: "/skills",
     },
     {
         id: 4,
-        title: "Target",
-        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
+        title: "Proyectos",
+        icon: <Layers size={30} strokeWidth={1.5} />,
         link: "/portfolio",
     },
     {
         id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+        title: "Contacto",
+        icon: <Send size={30} strokeWidth={1.5} />,
         link: "/contact",
     },
 ];
@@ -154,6 +148,154 @@ export const dataPortfolio = [
 
 
 ];
+export const technologiesByCategory = {
+    frontend: [
+        {
+            id: 1,
+            name: "React",
+            icon: <FaReact size={40} color="#61DAFB" />
+        },
+        {
+            id: 2,
+            name: "Next.js",
+            icon: <SiNextdotjs size={40} color="#000000" />
+        },
+        {
+            id: 3,
+            name: "JavaScript",
+            icon: <FaJs size={40} color="#F7DF1E" />
+        },
+        {
+            id: 4,
+            name: "TypeScript",
+            icon: <SiTypescript size={40} color="#3178C6" />
+        },
+        {
+            id: 5,
+            name: "HTML5",
+            icon: <FaHtml5 size={40} color="#E34F26" />
+        },
+        {
+            id: 6,
+            name: "CSS3",
+            icon: <FaCss3Alt size={40} color="#1572B6" />
+        },
+        {
+            id: 7,
+            name: "Tailwind CSS",
+            icon: <SiTailwindcss size={40} color="#38B2AC" />
+        }
+    ],
+    backend: [
+        {
+            id: 8,
+            name: "PHP",
+            icon: <FaPhp size={40} color="#777BB3" />
+        },
+        {
+            id: 9,
+            name: "WordPress",
+            iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
+        },
+        {
+            id: 10,
+            name: "Laravel",
+            icon: <FaLaravel size={40} color="#FF2D20" />
+        },
+        {
+            id: 11,
+            name: "Node.js",
+            icon: <SiNodedotjs size={40} color="#339933" />
+        },
+        {
+            id: 12,
+            name: "Python",
+            iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        }
+    ],
+    databases: [
+        {
+            id: 13,
+            name: "MySQL",
+            icon: <SiMysql size={40} color="#4479A1" />
+        },
+        {
+            id: 14,
+            name: "MongoDB",
+            iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+        }
+    ],
+    cloudDevOps: [
+        {
+            id: 13,
+            name: "Git",
+            icon: <FaGitAlt size={40} color="#F05032" />
+        },
+        {
+            id: 14,
+            name: "GitHub",
+            icon: <FaGithub size={40} color="#181717" />
+        },
+        {
+            id: 15,
+            name: "Docker",
+            iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        },
+        {
+            id: 16,
+            name: "Linux",
+            icon: <SiLinux size={40} color="#FCC624" />
+        },
+        {
+            id: 17,
+            name: "AWS",
+            iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        }
+    ]
+};
+
+export type TechnologyCategoryKey = keyof typeof technologiesByCategory;
+
+export interface TechnologyCategoryConfig {
+    key: TechnologyCategoryKey;
+    label: string;
+    token: string;
+    filePath: string;
+    accent: string;
+}
+
+export const technologyCategoryConfigs: TechnologyCategoryConfig[] = [
+    {
+        key: "frontend",
+        label: "Frontend",
+        token: "frontendStack",
+        filePath: "stack/frontend.ts",
+        accent: "from-emerald-400/40 via-teal-400/20 to-cyan-400/20",
+    },
+    {
+        key: "backend",
+        label: "Backend",
+        token: "backendStack",
+        filePath: "stack/backend.ts",
+        accent: "from-cyan-400/30 via-blue-500/20 to-indigo-500/20",
+    },
+    {
+        key: "databases",
+        label: "Bases de Datos",
+        token: "databaseStack",
+        filePath: "stack/databases.ts",
+        accent: "from-amber-400/30 via-orange-400/20 to-rose-500/20",
+    },
+    {
+        key: "cloudDevOps",
+        label: "Cloud & DevOps",
+        token: "operationsStack",
+        filePath: "stack/cloud-devops.ts",
+        accent: "from-purple-400/30 via-violet-500/20 to-fuchsia-500/20",
+    },
+];
+
+// Mantener el array original para compatibilidad
 export const technologies = [
     {
         id: 1,
