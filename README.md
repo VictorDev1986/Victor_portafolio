@@ -1,6 +1,5 @@
 # Victor Sanchez — Portafolio Profesional
 
-![Vista previa del proyecto](public/portafolio.png)
 
 [Sitio en línea](https://victorsanchez.vercel.app/)
 
