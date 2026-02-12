@@ -9,7 +9,7 @@ const Navbar = () => {
     const router = usePathname()
 
     return (
-        <MotionTransition position="right" className="fixed z-50 flex flex-col items-center justify-center w-full mt-auto h-max bottom-6 sm:bottom-12 pointer-events-none">
+        <MotionTransition position="right" className="fixed z-50 flex flex-col items-center justify-center w-full mt-auto h-max bottom-3 sm:bottom-6 pointer-events-none">
             <nav className="pointer-events-auto">
             <div className="flex items-center justify-center gap-4 sm:gap-6 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl sm:rounded-2xl bg-white/90 backdrop-blur-xl shadow-2xl border border-slate-200/60 ring-1 ring-slate-200/50">
                     {itemsNavbar.map((item) => {

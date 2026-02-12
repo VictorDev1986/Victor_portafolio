@@ -1,6 +1,7 @@
 import { Home, Terminal, Layers, Send, Github, Linkedin, X } from 'lucide-react';
 import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaLaravel, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiNodedotjs, SiNextdotjs, SiMysql, SiLinux, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiNodedotjs, SiMysql, SiLinux, SiTypescript } from "react-icons/si";
+
 export const socialNetworks = [
     {
         id: 2,
@@ -25,25 +26,25 @@ export const socialNetworks = [
 export const itemsNavbar = [
     {
         id: 1,
-        title: "Home",
+        title: "Inicio",
         icon: <Home size={30} strokeWidth={1.5} />,
         link: "/",
     },
     {
         id: 2,
-        title: "Skills",
+        title: "Habilidades",
         icon: <Terminal size={30} strokeWidth={1.5} />,
         link: "/skills",
     },
     {
         id: 3,
-        title: "Projects",
+        title: "Proyectos",
         icon: <Layers size={30} strokeWidth={1.5} />,
         link: "/portfolio",
     },
     {
         id: 4,
-        title: "Contact",
+        title: "Contacto",
         icon: <Send size={30} strokeWidth={1.5} />,
         link: "/contact",
     },
@@ -118,11 +119,6 @@ export const technologiesByCategory = {
             icon: <FaReact size={40} color="#61DAFB" />
         },
         {
-            id: 2,
-            name: "Next.js",
-            icon: <SiNextdotjs size={40} color="#000000" />
-        },
-        {
             id: 3,
             name: "JavaScript",
             icon: <FaJs size={40} color="#F7DF1E" />
@@ -168,11 +164,6 @@ export const technologiesByCategory = {
             id: 11,
             name: "Node.js",
             icon: <SiNodedotjs size={40} color="#339933" />
-        },
-        {
-            id: 12,
-            name: "Python",
-            iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
         }
     ],
     databases: [
@@ -196,12 +187,7 @@ export const technologiesByCategory = {
         {
             id: 14,
             name: "GitHub",
-            icon: <FaGithub size={40} color="#181717" />
-        },
-        {
-            id: 15,
-            name: "Docker",
-            iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+            icon: <FaGithub size={40} color="#ffffff" />
         },
         {
             id: 16,
@@ -243,14 +229,14 @@ export const technologyCategoryConfigs: TechnologyCategoryConfig[] = [
     },
     {
         key: "databases",
-        label: "Databases",
+        label: "Bases de Datos",
         token: "databaseStack",
         filePath: "stack/databases.ts",
         accent: "from-amber-400/30 via-orange-400/20 to-rose-500/20",
     },
     {
         key: "cloudDevOps",
-        label: "Cloud & DevOps",
+        label: "Cloud y DevOps",
         token: "operationsStack",
         filePath: "stack/cloud-devops.ts",
         accent: "from-purple-400/30 via-violet-500/20 to-fuchsia-500/20",

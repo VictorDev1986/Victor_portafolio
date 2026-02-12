@@ -39,7 +39,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                     target="_blank"
                     className="p-2 px-4 transition duration-150 rounded-lg text-white bg-emerald-600 hover:bg-emerald-700 hover:shadow-md font-semibold"
                 >
-                    View Site
+                    Ver Sitio
                 </Link>
             </div>
             <div className="mt-4 text-sm gap-5 text-slate-600 font-medium">

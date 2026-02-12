@@ -12,7 +12,7 @@ const Introduction = () => {
                         priority
                         width={500}
                         height={500}
-                        alt="Professional photo of Victor - Software Developer"
+                        alt="Foto profesional de Victor - Desarrollador de Software"
                         sizes="(max-width: 768px) 280px, (min-width: 769px) 450px"
                         onError={(e) => console.log('Error cargando imagen:', e)}
                         onLoad={() => console.log('Imagen cargada correctamente')}
@@ -22,22 +22,21 @@ const Introduction = () => {
                     <div className="h-24 md:h-32 flex items-center mb-4 md:mb-8">
                         <TypeAnimation
                             sequence={[
-                                'Software Developer',
+                                'Desarrollador de Software',
                                 4000,
-                                'Fullstack Developer',  
+                                'Desarrollador Frontend',  
                                 4000,
                             ]}
                             wrapper="span"
                             speed={{ type: 'keyStrokeDelayInMs', value: 120 }}
                             repeat={Infinity}
-                            className="font-bold bg-gradient-to-r from-green-600 via-emerald-500 to-blue-600 bg-clip-text text-transparent text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-full block"
+                            className="font-bold bg-gradient-to-r from-green-600 via-emerald-500 to-blue-600 bg-clip-text text-transparent text-4xl sm:text-4xl md:text-4xl lg:text-5xl max-w-full block"
                         />
                     </div>
                     <p className="text-slate-700 mx-auto mt-0 mb-6 pt-2 pb-2 text-lg sm:text-lg md:text-base lg:text-lg md:mx-0 md:mb-10 leading-relaxed font-medium">
-                        Fullstack Developer specialized in Frontend, with extensive experience creating modern and responsive 
-                        user interfaces using React, TypeScript, and Laravel. I combine my background as a Systems Analyst 
-                        and Systems Engineer with backend development, cloud infrastructure (AWS), and IT support skills, 
-                        focusing on building exceptional digital experiences that enhance user interaction and operational efficiency.
+                        Desarrollador Frontend con formación en Ingeniería de Sistemas. Especializado en React, TypeScript y JavaScript (ES6+), 
+                        con experiencia en arquitectura Headless WordPress, integración de APIs REST y despliegue en AWS y Vercel. 
+                        Enfocado en buenas prácticas, rendimiento y experiencia de usuario.
                     </p>
                 </div>
             </div>

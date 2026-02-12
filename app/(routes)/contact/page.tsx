@@ -14,9 +14,11 @@ const PageAboutMe = () => {
             <ContainerPage>
                 <div>
                 <h2 className=" mt-0 my-3 text-2xl font-bold text-center md:block md:text-center text-while sm:text-4xl">
-                            = Contact Me</h2>
+                            = Contáctame</h2>
                 </div>
-               <ContactCard />
+               <div className="mb-28">
+                <ContactCard />
+               </div>
                             
             </ContainerPage>
 

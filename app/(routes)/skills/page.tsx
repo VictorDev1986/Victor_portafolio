@@ -11,7 +11,7 @@ const PageAboutMe = () => {
             <TransitionPage />
             <ContainerPage>
                 <h2 className=" mt-0 my-3 text-2xl font-bold text-center md:block md:text-center text-while sm:text-4xl">
-                    = Skills</h2>
+                    = Habilidades</h2>
                 <div>
                     <TechnologiesSection />
                 </div>

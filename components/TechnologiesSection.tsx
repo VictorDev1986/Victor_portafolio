@@ -23,7 +23,7 @@ const TechnologyIcon: React.FC<{ tech: TechnologyCardProps }> = ({ tech }) => {
                 alt={tech.name}
                 width={20}
                 height={20}
-                className="h-5 w-5 object-contain"
+                className="h-5 w-5 object-contain brightness-200 contrast-125"
             />
         );
     }
@@ -32,15 +32,15 @@ const TechnologyIcon: React.FC<{ tech: TechnologyCardProps }> = ({ tech }) => {
 };
 
 const TechnologyLine: React.FC<{ tech: TechnologyCardProps }> = ({ tech }) => (
-    <div className="flex flex-wrap items-center gap-2 pl-6 text-xs text-slate-600 sm:text-sm">
-        <span className="text-slate-400">{"{"}</span>
-        <span className="text-indigo-500">tool</span>
-        <span className="text-slate-400">:</span>
+    <div className="flex flex-wrap items-center gap-2 pl-6 text-xs text-slate-300 sm:text-sm">
+        <span className="text-slate-500">{"{"}</span>
+        <span className="text-purple-400">tool</span>
+        <span className="text-slate-500">:</span>
         <span className="inline-flex items-center gap-2">
             <TechnologyIcon tech={tech} />
-            <span className="text-emerald-500">&quot;{tech.name}&quot;</span>
+            <span className="text-emerald-400">&quot;{tech.name}&quot;</span>
         </span>
-        <span className="text-slate-400">{"},"}</span>
+        <span className="text-slate-500">{"},"}</span>
     </div>
 );
 
@@ -49,22 +49,22 @@ const CategorySnippet: React.FC<{ config: TechnologyCategoryConfig }> = ({ confi
 
     const openingLine = (
         <span>
-            <span className="text-sky-500">export</span>{" "}
-            <span className="text-blue-600">const</span>{" "}
-            <span className="text-slate-900">{config.token}</span>{" "}
-            <span className="text-slate-500">= [</span>
+            <span className="text-sky-400">export</span>{" "}
+            <span className="text-blue-400">const</span>{" "}
+            <span className="text-slate-100">{config.token}</span>{" "}
+            <span className="text-slate-400">= [</span>
         </span>
     );
 
-    const closingLine = <span className="text-slate-500">];</span>;
+    const closingLine = <span className="text-slate-400">];</span>;
 
     const codeLines: React.ReactNode[] = [openingLine, ...stack.map((tech) => (
         <TechnologyLine key={tech.id} tech={tech} />
     )), closingLine];
 
     return (
-        <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-            <div className="flex items-center justify-between border-b border-slate-800 bg-slate-900 px-5 py-4 text-xs text-slate-200 font-semibold uppercase tracking-[0.2em]">
+        <div className="relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 shadow-xl">
+            <div className="flex items-center justify-between border-b border-slate-700 bg-slate-950 px-5 py-4 text-xs text-slate-200 font-semibold uppercase tracking-[0.2em]">
                 <div className="flex items-center gap-2">
                     <span className="flex gap-1.5">
                         <span className="h-3 w-3 rounded-full bg-rose-400" />
@@ -77,13 +77,13 @@ const CategorySnippet: React.FC<{ config: TechnologyCategoryConfig }> = ({ confi
                 </div>
                 <span className="text-emerald-200">{config.label}</span>
             </div>
-            <div className="grid grid-cols-[auto,1fr] gap-x-4 px-5 py-6 font-mono text-[0.7rem] text-slate-700 sm:text-sm">
+            <div className="grid grid-cols-[auto,1fr] gap-x-4 px-5 py-6 font-mono text-[0.7rem] text-slate-300 sm:text-sm">
                 {codeLines.map((line, index) => (
                     <React.Fragment key={`${config.key}-line-${index}`}>
-                        <span className="select-none text-[0.6rem] text-slate-300 sm:text-xs">
+                        <span className="select-none text-[0.6rem] text-slate-500 sm:text-xs">
                             {String(index + 1).padStart(2, "0")}
                         </span>
-                        <div className="leading-relaxed text-slate-800">
+                        <div className="leading-relaxed text-slate-200">
                             {line}
                         </div>
                     </React.Fragment>
